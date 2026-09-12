@@ -58,6 +58,8 @@ This project simulates the backend database of a simple **e-commerce platform** 
 <br clear="right">
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,8,22&height=3&section=header)
+<img width="1000" height="1720" alt="Data-Digger-Poster (1)" src="https://github.com/user-attachments/assets/639c9752-243e-40a2-a79c-0ffa6ad44f40" />
+
 
 ## **🗂️ Database Schema**
 
