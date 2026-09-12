@@ -223,6 +223,11 @@ FROM orders;
 5. 🧪 Modify and experiment — that's the best way to learn!
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=10,20,28&height=3&section=header)
+## SAMPLE OUTPUT**
+<img width="600" height="1861" alt="Data-Digger-Sample-Output (1)" src="https://github.com/user-attachments/assets/28068366-d1bc-4a4a-9368-06b3dac4ccf6" />
+
+
+
 
 ## **🤝 Contributing**
 
