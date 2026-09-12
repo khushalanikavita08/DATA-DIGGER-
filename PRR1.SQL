@@ -1,7 +1,7 @@
 CREATE TABLE customers(
 customersID INT PRIMARY KEY,
  name VARCHAR(50),
-cust_EmaiL VARCHAR(100),
+customer_EmaiL VARCHAR(100),
 customer_address VARCHAR(100)
 );
 ---INSERT AT LEAST 5 SAMPLE OF CUSTOMERS----
@@ -18,7 +18,7 @@ SELECT* FROM customers
 
 ---update CUSTOMERS ADDRESS--
 UPDATE customers
-SET address ='ahmedabad'
+SET customer_address ='ahmedabad'
 WHERE customersID=5;
 SELECT * FROM customers;
 
