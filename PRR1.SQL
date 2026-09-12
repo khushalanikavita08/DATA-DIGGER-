@@ -1,8 +1,8 @@
 CREATE TABLE customers(
-customersID INT PRIMARY KEY 
+customersID INT PRIMARY KEY,
  name VARCHAR(50),
-cust_EmaiL VARCHAR(100,
-customer address VARCHAR(100)
+cust_EmaiL VARCHAR(100),
+customer_address VARCHAR(100)
 );
 ---INSERT AT LEAST 5 SAMPLE OF CUSTOMERS----
 INSERT INTO customers(customersID,name,EmaiL,address )
@@ -28,12 +28,13 @@ DELETE FROM customers WHERE customersID=3;
 ---display all customers whose name is alice---
 SELECT*FROM customers WHERE name = 'alice'
 
----ODER TABLE---
-oderID INT PRIMARY KEY,
+---ORDER TABLE---
+CREATE TABLE orders(
+orderID INT PRIMARY KEY,
 customersID INT , 
 orderDATE DATE , 
 totalamount DECIMAL (10,2),
-FOREIGN KEY (customerID) REFERENCES customers(customersID)
+FOREIGN KEY (customersID) REFERENCES customers(customersID)
 );
 ---INSERT ATLEAST 5 SAMPLE  ORDERS ---
 INSERT INTO orders(orderID,customersID,orderDATE,totalamount)
@@ -50,10 +51,10 @@ SELECT*FROM orders WHERE customersID=1;
 ----UPDATE AN ORDERS OF TOTALAMOUNT---
 UPDATE orders
 SET totalamount = 5000
-WHERE orderID=5;
+WHERE orderID=105;
 
 -----DELETE ORDER USING ORDERID----
-DELETE FROM orders WHERE orderID=2;
+DELETE FROM orders WHERE orderID=102;
 SELECT * FROM orders
 
 ----RETREIVE ORDERS PLACED IN THE LAST 30 DAYS---
